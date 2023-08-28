@@ -36,7 +36,6 @@ const desarrolladoresJavascript = datos.filter(desarrollador => desarrollador.ha
 console.log(desarrolladoresJavascript)
 
 const todosProyectos = datos.map(proyecto => proyecto.proyectos)
-console.log(todosProyectos)
 const nombresProyectos = []
 
 for(let i = 0;i<todosProyectos.length;i++){
